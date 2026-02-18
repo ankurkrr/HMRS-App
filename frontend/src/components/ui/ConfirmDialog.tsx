@@ -28,7 +28,7 @@ export function ConfirmDialog({
     confirmLabel = 'Delete',
     confirmVariant = 'destructive',
     isLoading = false,
-}: ConfirmDialogProps & { confirmVariant?: 'primary' | 'secondary' | 'outline' | 'ghost' | 'destructive' }) {
+}: ConfirmDialogProps & { confirmVariant?: 'primary' | 'secondary' | 'destructive' }) {
     return (
         <Transition show={open} as={Fragment}>
             <Dialog as="div" className="relative z-50" onClose={onClose}>

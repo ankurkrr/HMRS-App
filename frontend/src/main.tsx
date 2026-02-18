@@ -21,7 +21,6 @@ createRoot(document.getElementById('root')!).render(
                         padding: '0.75rem 1rem',
                     },
                 }}
-                containerProps={{ 'aria-live': 'polite' } as Record<string, string>}
             />
         </QueryClientProvider>
     </StrictMode>,

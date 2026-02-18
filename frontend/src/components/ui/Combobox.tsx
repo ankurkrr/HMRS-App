@@ -1,6 +1,6 @@
 import { Combobox, ComboboxButton, ComboboxInput, ComboboxOption, ComboboxOptions, Transition } from '@headlessui/react';
 import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid';
-import { Fragment, useState, useMemo } from 'react';
+import { Fragment, useState } from 'react';
 import { cn } from '@/utils';
 
 interface ComboboxProps<T> {
