@@ -1,0 +1,19 @@
+# Application
+APP_NAME=HRMS Lite
+APP_ENV=development
+DEBUG=true
+
+# Database (MySQL)
+DB_USER=root
+DB_PASSWORD=ankurwavey
+DB_NAME=hrms_lite
+DB_HOST=localhost
+DB_PORT=3306
+
+# Rate Limiting
+RATE_LIMIT_PER_MINUTE=60
+RATE_LIMIT_BULK_PER_MINUTE=10
+
+# Logging
+LOG_LEVEL=INFO
+SLOW_QUERY_THRESHOLD_MS=200
