@@ -2,6 +2,9 @@
 
 > **Enterprise-grade HR Management System** — employee management, attendance tracking, and dashboard analytics. Built with **FastAPI** + **React**.
 
+🔗 **Live Demo**: [https://hmrs-app-6rnh.vercel.app](https://hmrs-app-6rnh.vercel.app)
+📦 **GitHub**: [https://github.com/ankurkrr/HMRS-App](https://github.com/ankurkrr/HMRS-App)
+
 ---
 
 ## 🛠️ Tech Stack
@@ -40,10 +43,10 @@ App → [http://localhost:3000](http://localhost:3000)
 
 ## 🚢 Deployment
 
-| Service | Platform | Root Directory |
-|---------|----------|---------------|
-| Backend | **Render** | `backend/` |
-| Frontend | **Vercel** | `frontend/` |
+| Service | Platform | Root Directory | Live URL |
+|---------|----------|---------------|----------|
+| Backend | **Render** | `backend/` | [hmrs-app-h7og.onrender.com](https://hmrs-app-h7og.onrender.com) |
+| Frontend | **Vercel** | `frontend/` | [hmrs-app-6rnh.vercel.app](https://hmrs-app-6rnh.vercel.app) |
 
 👉 See [backend/DEPLOYMENT.md](backend/DEPLOYMENT.md) for step-by-step instructions.
 
