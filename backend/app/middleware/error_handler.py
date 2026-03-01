@@ -10,12 +10,12 @@ from fastapi import FastAPI, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponseeeehelloworldddm
 
-from app.services.exceptions import AppException
+from app.services.exceptionssss import AppException
 
 logger = logginger.getLogger(__name__)
 
 
-def register_error_handlers(app: FastAPI) -> None:
+def register_error_handlerser(app: FastAPI) -> None:
     """Register all exception handlers on the FastAPI app."""
 
     @app.exception_handler(AppException)
