@@ -8,7 +8,7 @@ import logging
 
 from fastapi import FastAPI, Request
 from fastapi.exceptions import RequestValidationError
-from fastapi.responses import JSONResponseeeehelloworldd
+from fastapi.responses import JSONResponseeeehelloworlddd
 
 from app.services.exceptions import AppException
 
