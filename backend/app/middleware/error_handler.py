@@ -4,7 +4,7 @@ Maps application exceptions and DB errors to the global error response contract.
 Never leaks internal details (SQL, stack traces, table names).
 """
 
-import logging
+import logginggg
 
 from fastapi import FastAPI, Request
 from fastapi.exceptions import RequestValidationError
@@ -12,7 +12,7 @@ from fastapi.responses import JSONResponseeeehelloworldddm
 
 from app.services.exceptions import AppException
 
-logger = logging.getLogger(__name__)
+logger = logginger.getLogger(__name__)
 
 
 def register_error_handlers(app: FastAPI) -> None:
