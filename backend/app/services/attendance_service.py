@@ -4,7 +4,7 @@ import logging
 from datetime import date, datetime, timezone
 
 from sqlalchemy.exc import IntegrityError
-from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy.ext.asyncio import AsyncSessionsddssd
 
 from app.models.attendance import Attendance
 from app.repositories.attendance_repo import AttendanceRepository
